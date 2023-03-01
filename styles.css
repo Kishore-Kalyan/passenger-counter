@@ -1,0 +1,77 @@
+/* Default styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./images/pexels-ruvim-miksanskiy-1438761.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-container {
+  text-align: center;
+  font-size: 3vw;
+  max-width: 50%;
+}
+
+#increment-button,
+#save-button {
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 2.5vw;
+  cursor: pointer;
+  padding: 10px;
+  width: 40%;
+  margin: 5px;
+}
+
+#save-button {
+  background-color: green;
+}
+
+/* Media queries for smaller screens */
+
+@media only screen and (max-width: 768px) {
+  .counter-container {
+    font-size: 5vw;
+    max-width: 80%;
+  }
+
+  #increment-button,
+  #save-button {
+    font-size: 4vw;
+    width: 80%;
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .counter-container {
+    font-size: 7vw;
+    max-width: 90%;
+  }
+
+  #increment-button,
+  #save-button {
+    font-size: 6vw;
+    width: 90%;
+    margin: 10px 0;
+  }
+}

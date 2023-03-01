@@ -15,6 +15,3 @@ Once you are done counting, you can save the number of passengers by clicking on
 
 ## Contributing
 If you would like to contribute to this project, please feel free to fork the repository and submit a pull request. All contributions are welcome!
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details

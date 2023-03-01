@@ -13,5 +13,3 @@ Once you are done counting, you can save the number of passengers by clicking on
 - Uses the Poppins font from Google Fonts for a clean and modern look
 - Uses local storage to save the number of passengers for later use
 
-## Contributing
-If you would like to contribute to this project, please feel free to fork the repository and submit a pull request. All contributions are welcome!
